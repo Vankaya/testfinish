@@ -6,3 +6,5 @@ class MessegesSerializer(serializers.ModelSerializer):
     class Meta:
         model=Messages
         fields=('email', 'body')
+        
+ # just com

@@ -7,3 +7,4 @@ urlpatterns = [
     path('messages/list/<int:page>', MesegeView.as_view()),
     path('messages', PostMessageView.as_view())
 ]
+# k
